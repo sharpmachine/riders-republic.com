@@ -1,0 +1,13 @@
+body {
+  padding-top: 100px;
+  text-align: center;
+}
+h2 {
+  margin-top: 50px;
+}
+img {
+  width: 200px;
+  height: 255px;
+  display: block;
+  margin: 0 auto;
+}
