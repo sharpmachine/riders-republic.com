@@ -1,4 +1,15 @@
 body {
   padding-top: 100px;
   text-align: center;
+  overflow-x: hidden;
+  background-color: #e0ddd9;
 }
+#wrapper {
+  width: 100%;
+  height: 100%;
+}
+/*.container
+{
+	height: 1200px;
+}
+*/

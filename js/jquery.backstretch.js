@@ -102,7 +102,7 @@
                 // If this is the first time that backstretch is being called
                 if($container.length == 0) {
                     $container = $("<div />").attr("id", "backstretch")
-                                             .css({left: 0, top: 0, position: supportsFixedPosition ? "fixed" : "absolute", overflow: "hidden", zIndex: -999999, margin: 0, padding: 0, height: "100%", width: "100%"});
+                                             .css({left: 0, top: 0, overflow: "hidden", zIndex: -999999, margin: 0, padding: 0, height: "100%", width: "100%"});
                 } else {
                     // Prepare to delete any old images
                     $container.find("img").addClass("deleteable");
@@ -135,7 +135,7 @@
                      * Pretty harmless for everyone else
                     */
                     if ($(window).scrollTop() === 0 ) window.scrollTo(0, 0);
-                    $("body").append($container);
+                    $("#wrapper").append($container);
                 }
 
                 // Attach the settings
